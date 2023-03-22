@@ -1,0 +1,40 @@
+body {
+   box-sizing: border-box;
+   overflow: clip;
+   height: 100vh;
+   background: url("images/bg.jpg") center / cover no-repeat;
+}
+
+h1 {
+   text-transform: uppercase;
+   text-align: center;
+   color: red;
+}
+
+.container {
+   display: grid;
+   grid-template-columns: 1fr;
+}
+
+.image-1 {
+   height: 100px;
+   width: 100px;
+}
+
+.image-2 {
+   justify-self: center;
+   height: 150px;
+   width: 150px;
+   margin-bottom: 5px;
+}
+
+.giphy-embed {
+   display: block;
+   margin: 0 auto;
+}
+
+audio {
+   display: block;
+   height: 25px;
+   margin: 5px auto 0 auto;
+}
